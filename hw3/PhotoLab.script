@@ -1,0 +1,118 @@
+Script started on Tue 11 Nov 2014 10:56:07 PM PST
+zuma% PhotoLab[8Dgcc PhotoLab.c -o PhotoLab[26DPhotoLab[K
+--------------------------------
+ 1:  Load a PPM image
+ 2:  Save an image in PPM and JPEG format
+ 3:  Change a color image to Black & White
+ 4:  Flip an image vertically
+ 5:  Mirror an image horizontally
+ 6:  Color filter an image
+ 7:  Sketch the edge of an image
+ 8:  Shuffle an image
+ 9:  BONUS: Add Border to an image
+ 10: Posterize an image 
+ 11.Fill Lights to an image 
+ 12.Overlay an image 
+ 13.Test all functions
+  14.EXIT 
+ please make your choice: 1
+Please input the file name to load: RingMall
+RingMall.ppm was read successfully!
+--------------------------------
+ 1:  Load a PPM image
+ 2:  Save an image in PPM and JPEG format
+ 3:  Change a color image to Black & White
+ 4:  Flip an image vertically
+ 5:  Mirror an image horizontally
+ 6:  Color filter an image
+ 7:  Sketch the edge of an image
+ 8:  Shuffle an image
+ 9:  BONUS: Add Border to an image
+ 10: Posterize an image 
+ 11.Fill Lights to an image 
+ 12.Overlay an image 
+ 13.Test all functions
+  14.EXIT 
+ please make your choice: 13  10
+Enter the number of posterization bits4
+Posterize   operation is done!
+--------------------------------
+ 1:  Load a PPM image
+ 2:  Save an image in PPM and JPEG format
+ 3:  Change a color image to Black & White
+ 4:  Flip an image vertically
+ 5:  Mirror an image horizontally
+ 6:  Color filter an image
+ 7:  Sketch the edge of an image
+ 8:  Shuffle an image
+ 9:  BONUS: Add Border to an image
+ 10: Posterize an image 
+ 11.Fill Lights to an image 
+ 12.Overlay an image 
+ 13.Test all functions
+  14.EXIT 
+ please make your choice: 11
+Please input number of lights5
+Input the width of each light5
+Fill Light operation is done!
+--------------------------------
+ 1:  Load a PPM image
+ 2:  Save an image in PPM and JPEG format
+ 3:  Change a color image to Black & White
+ 4:  Flip an image vertically
+ 5:  Mirror an image horizontally
+ 6:  Color filter an image
+ 7:  Sketch the edge of an image
+ 8:  Shuffle an image
+ 9:  BONUS: Add Border to an image
+ 10: Posterize an image 
+ 11.Fill Lights to an image 
+ 12.Overlay an image 
+ 13.Test all functions
+  14.EXIT 
+ please make your choice: 12
+Please cofirm your second imagePeter
+X cordinate offset?0
+Y cordinate offset?0
+Peter.ppm was read successfully!
+RingMall.ppm was read successfully!
+Overlay operation is done!
+--------------------------------
+ 1:  Load a PPM image
+ 2:  Save an image in PPM and JPEG format
+ 3:  Change a color image to Black & White
+ 4:  Flip an image vertically
+ 5:  Mirror an image horizontally
+ 6:  Color filter an image
+ 7:  Sketch the edge of an image
+ 8:  Shuffle an image
+ 9:  BONUS: Add Border to an image
+ 10: Posterize an image 
+ 11.Fill Lights to an image 
+ 12.Overlay an image 
+ 13.Test all functions
+  14.EXIT 
+ please make your choice: 2
+Please input the file name to save: Peter
+Peter.ppm was saved successfully. 
+Peter.jpg was stored for viewing. 
+--------------------------------
+ 1:  Load a PPM image
+ 2:  Save an image in PPM and JPEG format
+ 3:  Change a color image to Black & White
+ 4:  Flip an image vertically
+ 5:  Mirror an image horizontally
+ 6:  Color filter an image
+ 7:  Sketch the edge of an image
+ 8:  Shuffle an image
+ 9:  BONUS: Add Border to an image
+ 10: Posterize an image 
+ 11.Fill Lights to an image 
+ 12.Overlay an image 
+ 13.Test all functions
+  14.EXIT 
+ please make your choice: 14
+zuma% exit
+exit
+
+Script done on Tue 11 Nov 2014 10:57:01 PM PST

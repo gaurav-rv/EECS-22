@@ -1,0 +1,60 @@
+Script started on Fri 12 Dec 2014 10:37:13 PM PST
+zuma% exit./MovieLab -o outer -i anteater -f 150 -s 352x288 -VFlip[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmake clean
+rm -f *.o
+rm -f MovieLab
+rm -f *.a
+zuma% make
+gcc -c -Wall -ansi Image.c -o Image.o
+gcc -c -Wall -ansi ImageList.c -o ImageList.o
+gcc -c -Wall -ansi Movie.c -o Movie.o
+cc    -c -o MovieLab.o MovieLab.c
+ar rc libFileIO.a Image.o ImageList.o Movie.o
+ranlib libFileIO.a
+gcc -c -Wall -ansi DIPs.c -o DIPs.o
+ar rc libFilter.a DIPs.o
+ranlib libFilter.a
+gcc MovieLab.c -lFileIO -lFilter -L. -o MovieLab  
+zuma% make clean[10Dexit[K./MovieLab -o outer -i anteater -f 150 -s 352x288 -VFlip[56Dclear[K[5D./MovieLab -o outer -i anteater -f 150 -s 352x288 -VFlip
+Creating Movie is complete!
+Reading Movie is complete!
+VFlip operation is complete!
+start savemovie, total frame 150
+^[[AThe movie file outer.yuv has been written successfully! 
+150 frames are written to the file outer.yuv in total 
+zuma% ./MovieLab -o outer -i anteater -f 150 -s 352x288 -VFlip[56Dmake[K clean[10Dexit[Kclear[5D~eecs22/bin/yay outer.yuv -s 352x288[17D.yuv -s 352x288[K[34D./MovieLab -o out -i anteater -f 150 -s 352x288 -VFlip[54Dvim MovieLab.c[K[14D./MovieLab -o out -i anteater -f 150 -s 352x288 -VFlip[K[K[K[K[Khmirror
+Creating Movie is complete!
+Reading Movie is complete!
+Hmirror operation is complete!
+start savemovie, total frame 150
+^[[AThe movie file out.yuv has been written successfully! 
+150 frames are written to the file out.yuv in total 
+zuma% ./MovieLab -o out -i anteater -f 150 -s 352x288 -hmirror[39Der -i anteater -f 150 -s 352x288 -VFlip[K[K[K[K[Kedge
+Creating Movie is complete!
+Reading Movie is complete!
+Edge operation is complete!
+start savemovie, total frame 150
+The movie file outer.yuv has been written successfully! 
+150 frames are written to the file outer.yuv in total 
+start savemovie, total frame 150
+The movie file outer.yuv has been written successfully! 
+150 frames are written to the file outer.yuv in total 
+zuma% ./MovieLab -o outer -i anteater -f 150 -s 352x288 -edge[38D -i anteater -f 150 -s 352x288 -hmirror[39Der -i anteater -f 150 -s 352x288 -edge[K[K[K[K[Kposter
+Creating Movie is complete!
+Reading Movie is complete!
+start savemovie, total frame 150
+The movie file outer.yuv has been written successfully! 
+150 frames are written to the file outer.yuv in total 
+zuma% ./MovieLab -o outer -i anteater -f 150 -s 352x288 -poster[Krize
+Creating Movie is complete!
+Reading Movie is complete!
+Posterize operation is complete!
+start savemovie, total frame 150
+The movie file outer.yuv has been written successfully! 
+150 frames are written to the file outer.yuv in total 
+start savemovie, total frame 150
+The movie file outer.yuv has been written successfully! 
+150 frames are written to the file outer.yuv in total 
+zuma% exit[K[K[K[Kexit
+exit
+
+Script done on Fri 12 Dec 2014 10:38:47 PM PST
